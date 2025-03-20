@@ -3,12 +3,12 @@ import requests
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
-st.set_page_config(page_title="💬 Mortgage Chatbot", layout="wide")
+st.set_page_config(page_title="Chatbot HabiCredit", layout="wide")
 st.title("🏡 Habicredit Chatbot")
 
-query = st.text_input("Ask a question about mortgage regulations, commissions, or processes:")
+query = st.text_input("Realiza las preguntas que hacen tus brokers:")
 
-if st.button("Get Answer") and query:
+if st.button("Responder") and query:
     response = requests.get(API_URL, params={"query": query})
     
 
