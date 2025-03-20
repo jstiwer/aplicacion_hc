@@ -14,6 +14,12 @@ st.markdown("""
         color: white;
     }
 
+     /* CSS for changing the border color and shadow of the text input box when focused */
+    .stTextInput>div>div>input:focus {
+        border: 2px solid #3498db; /* Red border color when focused */
+        box-shadow: 2px 2px 5px rgba(255, 87, 51, 0.6); /* Red shadow when focused */
+    }
+
     /* CSS for changing the border color of the text input box when focused */
     .stTextInput>div>div>input:focus {
         border: 2px solid #3498db; /* Red border color when focused */
