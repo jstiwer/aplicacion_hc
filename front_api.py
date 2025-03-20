@@ -10,7 +10,7 @@ st.title("🏡 Habicredit Chatbot 3")
 st.markdown("""
     <style>
     .stButton>button:hover {
-        background-color: #4CAF50; /* Green */
+        background-color: #3498db; /* Green */
         color: white;
     }
 
@@ -23,6 +23,14 @@ st.markdown("""
     /* CSS for changing the border color of the text input box when focused */
     .stTextInput>div>div>input:focus {
         border: 2px solid #3498db; /* Red border color when focused */
+
+    /* CSS for changing the border color and shadow of the entire form */
+    .stForm {
+        border: 2px solid #3498db; /* Blue border color */
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Default shadow */
+    }
     }
 
     /* CSS for changing the border color of the text input box */
