@@ -19,12 +19,6 @@ st.markdown("""
         border: 2px solid #3498db; /* Blue border color */
     }
 
-    /* CSS for changing the border color of the entire form */
-    .stForm {
-        border: 2px solid #3498db; /* Blue border color */
-        padding: 10px;
-        border-radius: 5px;
-    }
     </style>
     """, unsafe_allow_html=True)
 
