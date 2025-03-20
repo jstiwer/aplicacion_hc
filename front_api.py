@@ -4,7 +4,7 @@ import requests
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 st.set_page_config(page_title="Chatbot HabiCredit", layout="wide")
-st.title("🏡 Habicredit Chatbot")
+st.title("🏡 Habicredit Chatbot --")
 
 ## query = st.text_input("Realiza las preguntas que hacen tus brokers:")
 
