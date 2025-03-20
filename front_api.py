@@ -4,7 +4,17 @@ import requests
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 st.set_page_config(page_title="Chatbot HabiCredit", layout="wide")
-st.title("🏡 Habicredit Chatbot 2")
+st.title("🏡 Habicredit Chatbot 3")
+
+# CSS for button hover effect
+st.markdown("""
+    <style>
+    .stButton>button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # Usa st.form para agrupar el input y botón
 with st.form(key='chat_form'):
