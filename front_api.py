@@ -3,9 +3,16 @@ import requests
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
-st.set_page_config(page_title="Chatbot HabiCredit", layout="wide")
-st.title("🏡 Habicredit Chatbot 3")
+# Ajusta el diseño con columnas
+col1, col2 = st.columns([1, 5])
 
+# Inserta la imagen en la primera columna y el título en la segunda
+with col1:
+    st.image("https://drive.google.com/drive/folders/1FaqOTvDRT_CiRke1E0X42ctQQxudk2IO", width=50)  # Reemplaza con la URL de tu imagen
+
+with col2:
+    st.title("🏡 Habicredit Chatbot 2")
+    
 ## CSS
 st.markdown("""
     <style>
