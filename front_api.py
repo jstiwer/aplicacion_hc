@@ -3,7 +3,7 @@ import requests
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
-col1, col2 = st.columns([1, 1])
+col1, col2 = st.columns([1, 2])
 
 with col1:
     st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
