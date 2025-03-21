@@ -8,11 +8,10 @@ col1, col2 = st.columns(2)
 
 # Inserta la imagen en la primera columna y el título en la misma columna
 with col1:
-    st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
-
-with col2:
     st.markdown("<h1 style='text-align: center;'>Agente Habicredit</h1>", unsafe_allow_html=True)
 
+with col2:
+    st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
 
 
 st.markdown("""
