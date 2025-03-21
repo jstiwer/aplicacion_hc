@@ -21,6 +21,11 @@ st.markdown("""
         color: #7cdb91;
     }
 
+/* New CSS for changing the shadow color of the text input when hovered */
+.stTextInput>div>div>input:hover {
+    box-shadow: 2px 2px 5px rgba(0,255,0,0.75); /* Green shadow when hovered */
+}
+
     .stButton button:focus {
         border: 2px solid #7cdb91; /* Green border color when focused */
         color: #7cdb91; /* Green text color when focused */
