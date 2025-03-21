@@ -16,12 +16,12 @@ with col2:
 ## CSS
 st.markdown("""
     <style>
-    .stButton>button:hover {
+    .stform_submit_button>button:hover {
         background-color: #7cdb91; /* Green */
         color: #7cdb91;
     }
 
-    .stButton>button:focus {
+    .stform_submit_button>button:focus {
         border: 2px solid #7cdb91; /* Red border color when focused */
         color: #7cdb91; /* Red text color when focused */
     }
@@ -37,7 +37,6 @@ st.markdown("""
         box-shadow: 2px 2px 5px rgba(124,1,255,1.000); /* Red shadow when hovered */
     }
 
-    
     /* CSS for changing the border color and shadow of the text input box when focused */
     .stTextInput>div>div>input:focus {
         border: 2px solid #7C01FF; /* Red border color when focused */
