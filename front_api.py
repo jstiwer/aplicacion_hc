@@ -5,13 +5,14 @@ API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 col1, col2 = st.columns([3,1])
 
-# Inserta la imagen en la primera columna y el título en la misma columna
 with col1:
-    st.markdown("<h1 style='text-align: center;'>Agente Habicredit</h1>", unsafe_allow_html=True)
+    st.markdown("")  # Espacio vacío para dejar la imagen sola en la fila
 
 with col2:
-    st.markdown("<div style='height: 0px;'></div>", unsafe_allow_html=True)  # Añade un poco de espacio arriba
-    st.image("logo_hc.png", width=120)  # Reemplaza con la URL de tu imagen
+    st.image("logo_hc.png", width=120)
+
+# Ahora crea otra fila para centrar el texto debajo
+st.markdown("<h1 style='text-align: center; margin-top: 20px;'>Agente Habicredit</h1>", unsafe_allow_html=True)n
 
 
 st.markdown("""
