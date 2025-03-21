@@ -17,25 +17,25 @@ with col2:
 st.markdown("""
     <style>
     .stButton>button:hover {
-        background-color: #c214de; /* Green */
-        color: #c214de;
+        background-color: #7cdb91; /* Green */
+        color: #7cdb91;
     }
 
     .stButton>button:focus {
-        border: 2px solid #c214de; /* Red border color when focused */
-        color: #c214de; /* Red text color when focused */
+        border: 2px solid #7cdb91; /* Red border color when focused */
+        color: #7cdb91; /* Red text color when focused */
     }
 
     /* CSS for changing the border color and shadow of the text input box */
     .stTextInput>div>div>input {
-        border: 2px solid #3498db; /* Blue border color */
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Default shadow */
+        border: 2px solid #7C01FF; /* Blue border color */
+        box-shadow: 2px 2px 5px rgba(124,1,255,1.000); /* Default shadow */
     }
     
     /* CSS for changing the border color and shadow of the text input box when focused */
     .stTextInput>div>div>input:focus {
-        border: 2px solid #FF5733; /* Red border color when focused */
-        box-shadow: 2px 2px 5px rgba(255, 87, 51, 0.6); /* Red shadow when focused */
+        border: 2px solid #7C01FF; /* Red border color when focused */
+        box-shadow: 2px 2px 5px rgba(124,1,255,1.000); /* Red shadow when focused */
     }
     </style>
     """, unsafe_allow_html=True)
