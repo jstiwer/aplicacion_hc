@@ -4,11 +4,11 @@ import requests
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 # Ajusta el diseño con columnas
-col1, col2 = st.columns([1, 1])
+col1, col2 = st.columns([1, 2])
 
 # Inserta la imagen en la primera columna y el título en la segunda
 with col2:
-    st.image("logo_hc.png", width=100)  # Reemplaza con la URL de tu imagen
+    st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
 
 with col1:
     st.markdown("<h1 style='text-decoration: none;'>Agente Habicredit</h1>", unsafe_allow_html=True)
