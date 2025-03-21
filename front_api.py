@@ -11,7 +11,7 @@ with col1:
     st.image("logo_hc.png", width=300)  # Reemplaza con la URL de tu imagen
 
 with col2:
-    st.title("Agente Directores y Brokers")
+    st.markdown("<h1 style='text-decoration: none;'>Agente Directores y Brokers</h1>", unsafe_allow_html=True)
     
 ## CSS
 st.markdown("""
