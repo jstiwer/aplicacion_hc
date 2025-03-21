@@ -8,10 +8,10 @@ col1, col2 = st.columns([1, 1])
 
 # Inserta la imagen en la primera columna y el título en la segunda
 with col1:
-    st.image("image__6_-removebg-preview.png", width=200)  # Reemplaza con la URL de tu imagen
+    st.image("image__6_-removebg-preview.png", width=300)  # Reemplaza con la URL de tu imagen
 
 with col2:
-    st.title("Habicredit Chatbot 1")
+    st.title("Habicredit Chatbot")
     
 ## CSS
 st.markdown("""
