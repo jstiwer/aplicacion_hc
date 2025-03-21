@@ -10,8 +10,8 @@ st.title("🏡 Habicredit Chatbot 3")
 st.markdown("""
     <style>
     .stButton>button:hover {
-        background-color: #4CAF50; /* Green */
-        color: white;
+        background-color: #c214de; /* Green */
+        color: #c214de;
     }
 
     .stButton>button:focus {
