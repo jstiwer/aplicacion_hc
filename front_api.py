@@ -10,19 +10,26 @@ st.title("🏡 Habicredit Chatbot 3")
 st.markdown("""
     <style>
     .stButton>button:hover {
-        background-color: #3498db; /* Green */
+        background-color: #4CAF50; /* Green */
         color: white;
     }
 
-     /* CSS for changing the border color and shadow of the text input box when focused */
-    .stTextInput>div>div>input:focus {
+    .stButton>button:focus {
         border: 2px solid #3498db; /* Red border color when focused */
-        box-shadow: 2px 2px 5px rgba(255, 87, 51, 0.6); /* Red shadow when focused */
+        color: #3498db; /* Red text color when focused */
     }
 
-    /* CSS for changing the border color of the text input box when focused */
+    /* CSS for changing the border color and shadow of the text input box */
+    .stTextInput>div>div>input {
+        border: 2px solid #3498db; /* Blue border color */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Default shadow */
+    }
+    
+    /* CSS for changing the border color and shadow of the text input box when focused */
     .stTextInput>div>div>input:focus {
-        border: 2px solid #3498db; /* Red border color when focused */
+        border: 2px solid #FF5733; /* Red border color when focused */
+        box-shadow: 2px 2px 5px rgba(255, 87, 51, 0.6); /* Red shadow when focused */
+    }
 
     /* CSS for changing the border color and shadow of the entire form */
     .stForm {
@@ -31,13 +38,6 @@ st.markdown("""
         border-radius: 5px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Default shadow */
     }
-    }
-
-    /* CSS for changing the border color of the text input box */
-    .stTextInput>div>div>input {
-        border: 2px solid #3498db; /* Blue border color */
-    }
-
     </style>
     """, unsafe_allow_html=True)
 
