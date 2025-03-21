@@ -21,9 +21,9 @@ st.markdown("""
         color: #7cdb91;
     }
 
-    .stform_submit_button>button:focus {
-        border: 2px solid #7cdb91; /* Red border color when focused */
-        color: #7cdb91; /* Red text color when focused */
+    .stButton button:focus {
+        border: 2px solid #7cdb91; /* Green border color when focused */
+        color: #7cdb91; /* Green text color when focused */
     }
 
     /* CSS for changing the border color and shadow of the text input box */
