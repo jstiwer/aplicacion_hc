@@ -3,6 +3,12 @@ import requests
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
+# Columna para el logo
+st.markdown('<div class="logo-container"><img src="logo_hc.png" width="200"></div>', unsafe_allow_html=True)
+
+# Fila para el título centrado
+st.markdown('<div class="title-container"><h1>Agente Habicredit</h1></div>', unsafe_allow_html=True)
+
 
 st.markdown("""
     <style>
@@ -10,12 +16,6 @@ st.markdown("""
         background-color: #7cdb91; /* Green */
         color: #7cdb91;
     }
-    
-# Columna para el logo
-st.markdown('<div class="logo-container"><img src="logo_hc.png" width="200"></div>', unsafe_allow_html=True)
-
-# Fila para el título centrado
-st.markdown('<div class="title-container"><h1>Agente Habicredit</h1></div>', unsafe_allow_html=True)
 
 
 /* New CSS for changing the shadow color of the text input when hovered */
