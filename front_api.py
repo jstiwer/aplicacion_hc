@@ -11,7 +11,7 @@ with col1:
     st.image("image__6_-removebg-preview.png", width=300)  # Reemplaza con la URL de tu imagen
 
 with col2:
-    st.title("Agente Directores y brokers")
+    st.title("Agente Directores y Brokers")
     
 ## CSS
 st.markdown("""
