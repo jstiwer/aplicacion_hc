@@ -3,14 +3,6 @@ import requests
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
-col1, col2 = st.columns([1, 2])
-
-with col1:
-    st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
-    st.markdown("<h1 style='text-align: center;'>Agente Habicredit</h1>", unsafe_allow_html=True)
-    
-## CSS
-
 
 st.markdown("""
     <style>
@@ -19,10 +11,11 @@ st.markdown("""
         color: #7cdb91;
     }
     
-/* CSS to remove hyperlink appearance from title */
-h1 {
-    text-decoration: none;
-}
+# Columna para el logo
+st.markdown('<div class="logo-container"><img src="logo_hc.png" width="200"></div>', unsafe_allow_html=True)
+
+# Fila para el título centrado
+st.markdown('<div class="title-container"><h1>Agente Habicredit</h1></div>', unsafe_allow_html=True)
 
 
 /* New CSS for changing the shadow color of the text input when hovered */
