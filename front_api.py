@@ -31,6 +31,12 @@ st.markdown("""
         border: 2px solid #7C01FF; /* Blue border color */
         box-shadow: 2px 2px 5px rgba(124,1,255,1.000); /* Default shadow */
     }
+
+    /* New CSS for changing the shadow color of the text input when hovered */
+    .stTextInput>div>div>input:hover {
+        box-shadow: 2px 2px 5px rgba(124,1,255,1.000); /* Red shadow when hovered */
+    }
+
     
     /* CSS for changing the border color and shadow of the text input box when focused */
     .stTextInput>div>div>input:focus {
