@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-import os
 
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
