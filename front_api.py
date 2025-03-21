@@ -4,7 +4,7 @@ import requests
 API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 # Ajusta el diseño con columnas
-col1, col2 = st.columns([1, 5])
+col1, col2 = st.columns([1, 1])
 
 # Inserta la imagen en la primera columna y el título en la segunda
 with col2:
