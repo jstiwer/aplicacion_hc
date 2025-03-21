@@ -15,16 +15,19 @@ with col2:
     
 ## CSS
 
-/* CSS to remove hyperlink appearance from title */
-h1 {
-    text-decoration: none;
-}
+
 st.markdown("""
     <style>
     .stform_submit_button>button:hover {
         background-color: #7cdb91; /* Green */
         color: #7cdb91;
     }
+    
+/* CSS to remove hyperlink appearance from title */
+h1 {
+    text-decoration: none;
+}
+
 
 /* New CSS for changing the shadow color of the text input when hovered */
 .stTextInput>div>div>input:hover {
