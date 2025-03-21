@@ -5,6 +5,16 @@ API_URL = "https://api1-zv36.onrender.com/chat"  # Replace with your API URL
 
 col1, col2 = st.columns([3,1])
 
+# CSS para desactivar la acción de clic y la lupa al pasar el mouse
+st.markdown("""
+    <style>
+    .no-click img {
+        pointer-events: none;
+        user-select: none;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 with col1:
     st.markdown("")  # Espacio vacío para dejar la imagen sola en la fila
 
