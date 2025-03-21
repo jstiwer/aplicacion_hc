@@ -11,7 +11,7 @@ with col1:
     st.image("image__6_-removebg-preview.png", width=300)  # Reemplaza con la URL de tu imagen
 
 with col2:
-    st.title("Habicredit Chatbot")
+    st.title("Agente")
     
 ## CSS
 st.markdown("""
