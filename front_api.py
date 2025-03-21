@@ -11,7 +11,7 @@ with col1:
     st.markdown("<h1 style='text-align: center;'>Agente Habicredit</h1>", unsafe_allow_html=True)
 
 with col2:
-    st.image("logo_hc.png", width=200)  # Reemplaza con la URL de tu imagen
+    st.image("logo_hc.png", width=150)  # Reemplaza con la URL de tu imagen
 
 
 st.markdown("""
