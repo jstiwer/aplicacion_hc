@@ -14,6 +14,11 @@ with col2:
     st.markdown("<h1 style='text-decoration: none;'>Agente Directores y Brokers</h1>", unsafe_allow_html=True)
     
 ## CSS
+
+/* CSS to remove hyperlink appearance from title */
+h1 {
+    text-decoration: none;
+}
 st.markdown("""
     <style>
     .stform_submit_button>button:hover {
