@@ -15,8 +15,8 @@ st.markdown("""
     }
 
     .stButton>button:focus {
-        border: 2px solid #3498db; /* Red border color when focused */
-        color: #3498db; /* Red text color when focused */
+        border: 2px solid #c214de; /* Red border color when focused */
+        color: #c214de; /* Red text color when focused */
     }
 
     /* CSS for changing the border color and shadow of the text input box */
@@ -29,14 +29,6 @@ st.markdown("""
     .stTextInput>div>div>input:focus {
         border: 2px solid #FF5733; /* Red border color when focused */
         box-shadow: 2px 2px 5px rgba(255, 87, 51, 0.6); /* Red shadow when focused */
-    }
-
-    /* CSS for changing the border color and shadow of the entire form */
-    .stForm {
-        border: 2px solid #3498db; /* Blue border color */
-        padding: 10px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Default shadow */
     }
     </style>
     """, unsafe_allow_html=True)
